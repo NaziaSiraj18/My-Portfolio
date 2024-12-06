@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Responsive Portfolio Website</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css/">
+</head>
+
+<body>
+
+   <!-- navigation menu -->
+   <nav>
+      <div class="nav-container">
+         <div class="logo" data-aos="zoom-in" data-aos-duration="1100">
+            Nazia <span> Siraj </span>
+         </div>
+         <div class="links">
+            <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="100"><a href="#">Home</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200"><a href="#">About</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300"><a href="#">Skills</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400"><a href="#">Service</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500"><a href="#">Contact</a>
+            </div>
+         </div>
+         <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+         <div class="links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Skills</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+         </div>
+      </div>
+   </nav>
+   <section>
+
+      <!--- Main Container--->
+      <div class="main-container">
+         <div class="image" data-aos="zoom-in" data-aos-duration="2500">
+            <img src="images/girl.png" alt="girl image">
+         </div>
+         <div class="content">
+            <h1 data-aos="fade-left" data-aos-duration="1100" data-aos-delay="700">Hey I'm <span> Nazia </span></h1>
+            <div class="typewriter-text" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="900">I,m a <span
+                  class="typewriter-text">Frontend Developer</span><label for="">|</label></div>
+            <p data-aos="flip-up" data-aos-duration="1100" data-aos-delay="1100">Hey, I'm Nazia! I'm deeply passionate
+               about the dynamic fields of web development, digital marketing, app development, and icon design. I love
+               creating innovative and user-friendly websites, apps, and digital experiences that make a real impact.
+               With a strong foundation in design and coding, I’m always excited to explore new technologies and trends
+               in the digital world. Let’s create something amazing together!</p>
+
+            <div class="social-links">
+               <a href="#" data-aos="zoom-out" data-aos-duration="1100" data-aos-delay="1300"><i
+                     class="fa-brands fa-github"></i></a>
+               <a href="#" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="1400"><i
+                     class="fa-brands fa-facebook"></i></a>
+               <a href="#" data-aos="fade-up-up" data-aos-duration="1100" data-aos-delay="1500"><i
+                     class="fa-brands fa-linkedin"></i></a>
+               <a href="#" data-aos="fade-up-up" data-aos-duration="1100" data-aos-delay="1600"><i
+                     class="fa-brands fa-twitter"></i></a>
+            </div>
+
+            <div class="btn" data-aos="zoom-in-left" data-aos-duration="1100" data-aos-delay="1700">
+               <button>Hire me</button>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- About Section Start -->
+   <section class="about" id="about">
+
+      <h1 class="about-me" data-aos="fade-up" data-aos-duration="1100"><span>About Me </span></h1>
+
+      <div class="content">
+         <!-- <div class="title" data-aos="fade-up"data-aos-duration="1100" ><span>About Me </span></div> -->
+         <div class="about-details">
+            <div class="left" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+               <img src="images/girl.png" alt="" />
+            </div>
+         </div>
+         <div class="right">
+            <p class="about-text" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="200">I'm <span> Nazia
+               </span>Web developer<span> and I'm Frontend Developer</span>Lorem ipsum dolor sit amet, consectetur
+               adipisicing elit. Totam, facilis harum. Ad assumenda, reiciendis mollitia eligendi similique autem
+               ducimus laborum magni omnis soluta corrupti, culpa modi velit quas dicta voluptate.</p>
+            <div class="exp-area">
+               <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300">
+                  Experience:
+                  <span>1 years</span>
+               </p>
+
+               <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400">
+                  Speciality:
+                  <span> Frontend Developer</span>
+               </p>
+
+               <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500">
+                  Address:
+                  <span>Karachi,Pakistan</span>
+               </p>
+
+               <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600">
+                  Email:
+                  <span>naziasiraj1664@gmail.com</span>
+               </p>
+
+               <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="700">
+                  Phone:
+                  <span>+91786xxxxx</span>
+               </p>
+
+               <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="800">
+                  Freeollance:
+                  <span>Available</span>
+               </p>
+            </div>
+            <div class="button" data-aos="zoom-out" data-aos-duration="1100" data-aos-delay="900">
+               <button>View All Projects</button>
+            </div>
+
+         </div>
+      </div>
+      </div>
+
+   </section>
+
+   <!-- My Skills Section Start-->
+   <section class="skills" id="skills">
+      <h2 class="about-me" data-aos="fade-up" data-aos-duration="1100"><span>My Skills</span></h2>
+      <div class="content">
+         <!-- <div class="about-me" data-aos="fade-up"data-aos-duration="1100"><span>My Skills</span></div> -->
+         <div class="skills-details">
+            <div class="text">
+               <div class="topic" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">Skills Reflects
+                  Our Knowledge</div>
+               <p data-aos="flip-down" data-aos-duration="1100" data-aos-delay="200">Skills are the practical
+                  application of knowledge, demonstrating proficiency in specific tasks. They reflect our ability to
+                  solve problems, complete tasks, and adapt to various challenges effectively and efficiently.</p>
+               <div class="experience" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="300">
+                  <div class="num">1</div>
+                  <div class="exp">
+                     Years Of <br />
+                     Experience
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="boxes">
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="400">
+               <div class="topic">HTML
+                  <div class="per"> 95%
+                  </div>
+               </div>
+            </div>
+
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="500">
+               <div class="topic">CSS
+                  <div class="per">90%
+                  </div>
+               </div>
+            </div>
+
+
+
+
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="600">
+               <div class="topic">Javascript
+                  <div class="per">60%
+                  </div>
+               </div>
+            </div>
+
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="700">
+               <div class="topic">PHP
+                  <div class="per">20%
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+      </div>
+   </section>
+   <!--My Services Section Start-->
+
+   <section class="services" id="services">
+      <div class="about-me" data-aos="fade-up" data-aos-duration="1100"><span>My Services</span></div>
+      <div class="content">
+         <!-- <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>My Services</span></div> -->
+         <div class="boxes">
+
+
+            <div class="box" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+               <div class="icon">
+                  <i class="fas fa-desktop"></i>
+               </div>
+               <div class="topic">Web Development</div>
+               <p>I'm a skilled web developer specializing in HTML, CSS, JavaScript, and Next.js, with a focus on
+                  creating responsive, user-friendly websites and seamless digital experiences</p>
+            </div>
+
+
+            <div class="box" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300">
+               <div class="icon">
+                  <i class="fas fa-paint-brush"></i>
+               </div>
+               <div class="topic">Graphic Design</div>
+               <p>I'm a skilled graphic designer specializing in creating visually engaging designs, branding, and
+                  digital artwork, combining creativity with technical expertise.</p>
+            </div>
+
+
+            <div class="box" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="300">
+               <div class="icon">
+                  <i class="fas fa-chart-line"></i>
+               </div>
+               <div class="topic">Digital Marketing</div>
+               <p>I'm a skilled digital marketer specializing in web development, SEO, social media strategies, and
+                  online campaigns to drive brand growth and engagement.</p>
+            </div>
+
+
+            <div class="box" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="300">
+               <div class="icon">
+                  <div class="fas fa-android"></div>
+               </div>
+
+               <div class="topic">Icon Design</div>
+               <p>I'm an icon designer with a knack for creating clean, memorable icons that enhance user interfaces.
+                  She brings creativity and precision to each design project.</p>
+            </div>
+
+
+            <div class="box" data-aos="fade-down" data-aos-duration="1100" data-aos-delay="300">
+               <div class="icon">
+                  <i class="fas fa-camera-retro"></i>
+               </div>
+               <div class="topic">Photography</div>
+               <p>I'm a passionate photographer with a keen eye for capturing unique moments, specializing in portrait,
+                  landscape, and event photography, creating visually compelling and memorable images.</p>
+            </div>
+
+
+            <div class="box" data-aos="fade-down" data-aos-duration="1100" data-aos-delay="300 ">
+               <div class="icon">
+                  <i class="fas fa-tablet-alt"></i>
+               </div>
+               <div class="topic">Apps Development</div>
+               <p>I'm a skilled app developer specializing in creating innovative, user-friendly mobile and web
+                  applications. I bring expertise in design, functionality, and seamless user experiences.</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!--Contact Me Section Start-->
+
+
+
+   <section class="contact" id="contact">
+      <div class="content">
+         <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>Contact Me</span></div>
+         <div class="text">
+            <div class="topic" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="100">Have Any Problem ?
+            </div>
+            <p data-aos="fade-right" data-aos-duration="1100" data-aos-delay="200">Contact me for any assistance or
+               problem-solving needs. I'm dedicated to providing effective solutions and support, ensuring a smooth and
+               successful experience for you.</p>
+         </div>
+
+         <div class="contact-from-container">
+            <form class="contact-form">
+
+               <label for="name" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300">Name</label>
+               <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+               <label for="email" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300">Email</label>
+               <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+               <label for="phone" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500">Phone Number</label>
+               <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+
+               <label for="message" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600">Message</label>
+               <textarea id="message" name="message" rows="S" placeholder="Your Message" required></textarea>
+
+               <button type="submit" class="contact-btn">Send Message</button>
+            </form>
+         </div>
+      </div>
+   </section>
+
+   <!--Footer Section Start-->
+
+   <footer>
+      <div class="text">
+         <span>Created By <a href="#">Nazia Siraj</a> | & #169.2024.All Right Reserved</span>
+      </div>
+   </footer>
+   <script src="https://unpkgg.com/aos@next/dist/aos.js"></script>
+
+   <script>
+      AOS.init(offset0);
+      function hamburg() {
+         const navbar = document.querySelector(".dropdown");
+         navbar.style.transform = 'translateY(0px)';
+      }
+      function cancel() {
+         const navbar = document.querySelector(".dropdown");
+         navbar.style.transform = 'translateY(-500px)';
+      }
+
+   </script>
+</body>
+
+</html>
